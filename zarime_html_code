@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+  <title>Ny Pejiko</title>
+  <style>
+    body {
+      text-align: left;
+      background: url("http://i.imgur.com/4A7nNeO.jpg");
+      background-size:cover;
+      background-position:center;
+      color: Black;
+      font-family: arial;
+    }
+    p {
+      font-size:23px;  
+    }
+    input{
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"]{
+    color:white;
+    background:green;
+    }
+  </style>
+</head>
+<body>
+  <a href="http://imgur.com/7DJI1i4">
+  <img src="http://i.imgur.com/7DJI1i4.png?1" title="source: imgur.com" /></a>  
+  <p>Zarime. Oh! les cheveux longs..... Bonjour</p>
+  <label for="email" style="width: 100%; text-align:center; color:white; background: blue">Email</label>
+  <input type="email"> 
+  <label for="password" style="width: 100%; text-align:center; color:white; background: blue">Mot de Passe</label>
+  <input type="password">   
+  <input type="submit" value ="Entrer">
+</body>
